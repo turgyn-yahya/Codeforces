@@ -1,0 +1,16 @@
+<h3><a href="https://codeforces.com/contest/1327/problem/A" target="_blank" rel="noopener noreferrer">Сумма нечетных чисел</a></h3>
+
+<div class="header"><div class="title">A. Сумма нечетных чисел</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file input-standard"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file output-standard"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Вам задано два целых числа $$$n$$$ и $$$k$$$. Ваша задача — определить, можно ли представить $$$n$$$ в виде суммы $$$k$$$ <span class="tex-font-style-bf">различных положительных нечетных</span> (не делящихся на $$$2$$$) целых чисел.</p><p>Вам необходимо ответить на $$$t$$$ независимых наборов тестовых данных.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Первая строка входных данных содержит одно целое число $$$t$$$ ($$$1 \le t \le 10^5$$$) — количество наборов тестовых данных.</p><p>Следующие $$$t$$$ строк описывают наборы тестовых данных. Единственная строка набора тестовых данных содержит два целых числа $$$n$$$ и $$$k$$$ ($$$1 \le n, k \le 10^7$$$).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите ответ на каждый набор тестовых данных — «<span class="tex-font-style-tt">YES</span>» (без кавычек), если $$$n$$$ можно представить в виде суммы $$$k$$$ <span class="tex-font-style-bf">различных положительных нечетных</span> (не делящихся на $$$2$$$) целых чисел, и «<span class="tex-font-style-tt">NO</span>» в противном случае.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные<div title="Скопировать" data-clipboard-target="#id009160680030284647" id="id0007918013023634529" class="input-output-copier">Скопировать</div></div><pre id="id009160680030284647">6
+3 1
+4 2
+10 3
+10 2
+16 4
+16 5
+</pre></div><div class="output"><div class="title">Выходные данные<div title="Скопировать" data-clipboard-target="#id00747287833820217" id="id006303890971905752" class="input-output-copier">Скопировать</div></div><pre id="id00747287833820217">YES
+YES
+NO
+YES
+YES
+NO
+</pre></div></div></div><div class="note"><div class="section-title">Примечание</div><p>В первом наборе тестовых данных вы можете представить $$$3$$$ как $$$3$$$.</p><p>Во втором наборе тестовых данных единственным способом представить $$$4$$$ является $$$1+3$$$.</p><p>В третьем наборе тестовых данных вы не можете представить $$$10$$$ в виде суммы трех различных положительных нечетных целых чисел.</p><p>В четвертом наборе тестовых данных вы можете представить $$$10$$$ как, например, $$$3+7$$$.</p><p>В пятом наборе тестовых данных вы можете представить $$$16$$$ как $$$1+3+5+7$$$.</p><p>В шестом наборе тестовых данных вы не можете представить $$$16$$$ в виде суммы пяти различных положительных нечетных целых чисел.</p></div>
