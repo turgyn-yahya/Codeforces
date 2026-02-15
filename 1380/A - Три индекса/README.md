@@ -1,0 +1,15 @@
+<h3><a href="https://codeforces.com/contest/1380/problem/A" target="_blank" rel="noopener noreferrer">Три индекса</a></h3>
+
+<div class="header"><div class="title">A. Три индекса</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file input-standard"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file output-standard"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Вам задана перестановка $$$p_1, p_2, \dots, p_n$$$. Напомним, что последовательность из $$$n$$$ целых чисел называется <span class="tex-font-style-it">перестановкой</span>, если она содержит все целые числа от $$$1$$$ до $$$n$$$ ровно один раз.</p><p>Вам необходимо найти три индекса $$$i$$$, $$$j$$$ и $$$k$$$ такие, что:</p><ul> <li> $$$1 \le i  \lt  j  \lt  k \le n$$$; </li><li> $$$p_i  \lt  p_j$$$ и $$$p_j  \gt  p_k$$$. </li></ul><p>Или сообщить, что таких трех индексов нет.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Первая строка содержит одно целое число $$$T$$$ ($$$1 \le T \le 200$$$) — количество наборов входных данных.</p><p>Следующие $$$2T$$$ содержат описание наборов входных данных  — две строки на каждый набор. Первая строка каждого набора входных данных содержит единственное целое число $$$n$$$ ($$$3 \le n \le 1000$$$) — длина перестановки $$$p$$$.</p><p>Вторая строка содержит $$$n$$$ целых чисел $$$p_1, p_2, \dots, p_n$$$ ($$$1 \le p_i \le n$$$; $$$p_i \neq p_j$$$ если $$$i \neq j$$$) — перестановка $$$p$$$.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Для каждого набора входных данных: </p><ul> <li> если есть такие индексы $$$i$$$, $$$j$$$ и $$$k$$$, выведите <span class="tex-font-style-tt">YES</span> (без учета регистра) и сами индексы; </li><li> если таких трех индексов нет, выведите <span class="tex-font-style-tt">NO</span> (без учета регистра). </li></ul><p>Если допустимых наборов индексов несколько, выведите любой из них.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные<div title="Скопировать" data-clipboard-target="#id008679534198589134" id="id0018208734639407165" class="input-output-copier">Скопировать</div></div><pre id="id008679534198589134">3
+4
+2 1 4 3
+6
+4 6 1 2 5 3
+5
+5 3 1 2 4
+</pre></div><div class="output"><div class="title">Выходные данные<div title="Скопировать" data-clipboard-target="#id0048180611006068896" id="id005206249693628211" class="input-output-copier">Скопировать</div></div><pre id="id0048180611006068896">YES
+2 3 4
+YES
+3 5 6
+NO
+</pre></div></div></div>
