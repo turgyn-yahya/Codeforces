@@ -1,0 +1,13 @@
+<h3><a href="https://codeforces.com/contest/1312/problem/B" target="_blank" rel="noopener noreferrer">Bogosort</a></h3>
+
+<div class="header"><div class="title">B. Bogosort</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file input-standard"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file output-standard"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Вам задан массив $$$a_1, a_2, \dots , a_n$$$. Массив хороший, если для каждой пары индексов $$$i  \lt  j$$$ выполняется условие $$$j - a_j \ne i - a_i$$$ . Можете ли вы переставить местами элементы массива так, чтобы он стал хорошим (если исходный массив хороший — можно оставить старый порядок)?</p><p>Например, если $$$a = [1, 1, 3, 5]$$$, то перемешанные массивы $$$[1, 3, 5, 1]$$$, $$$[3, 5, 1, 1]$$$ и $$$[5, 3, 1, 1]$$$ — хорошие, но перемешанные массивы $$$[3, 1, 5, 1]$$$, $$$[1, 1, 3, 5]$$$ и $$$[1, 1, 5, 3]$$$ — нет.</p><p>Гарантируется, что всегда возможно перемешать массив так, чтобы он стал хорошим.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Первая строка содержит число $$$t$$$ ($$$1 \le t \le 100$$$) — количество наборов входных данных.</p><p>Первая строка каждого набора входных данных содержит одно число $$$n$$$ ($$$1 \le n \le 100$$$) — длину массива $$$a$$$.</p><p>Вторая строка каждого набора входных данных содержит $$$n$$$ чисел $$$a_1, a_2, \dots , a_n$$$ ($$$1 \le a_i \le 100$$$).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>На каждый набор входных данных выведите перемешанный массив $$$a$$$, являющийся хорошим.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные<div title="Скопировать" data-clipboard-target="#id0006932768275800649" id="id0009607856419943095" class="input-output-copier">Скопировать</div></div><pre id="id0006932768275800649">3
+1
+7
+4
+1 1 3 5
+6
+3 2 1 5 6 4
+</pre></div><div class="output"><div class="title">Выходные данные<div title="Скопировать" data-clipboard-target="#id006285484311859189" id="id008384204271110198" class="input-output-copier">Скопировать</div></div><pre id="id006285484311859189">7
+1 5 1 3
+2 4 6 1 3 5
+</pre></div></div></div>
