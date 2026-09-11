@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 2 | 4 |
 
 ---
 
@@ -14,6 +14,8 @@
 
 - [dp](#dp) (1)
 - [greedy](#greedy) (1)
+- [math](#math) (1)
+- [number theory](#number-theory) (1)
 
 ---
 
@@ -28,6 +30,18 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 545C | [Дровосеки](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/545/C%20-%20%D0%94%D1%80%D0%BE%D0%B2%D0%BE%D1%81%D0%B5%D0%BA%D0%B8/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259B | [Minus Two](https://codeforces.com/contest/2259/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/2259/B%20-%20Minus%20Two/solution.cpp) |
 
 ---
 
