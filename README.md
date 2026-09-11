@@ -6,18 +6,25 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 4 |
+| 3 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [constructive algorithms](#constructive-algorithms) (1)
 - [dp](#dp) (1)
-- [greedy](#greedy) (1)
+- [greedy](#greedy) (2)
 - [math](#math) (1)
 - [number theory](#number-theory) (1)
 
 ---
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2259C | [101](https://codeforces.com/contest/2259/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/2259/C%20-%20101/solution.cpp) |
 
 ### dp
 
@@ -30,6 +37,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 545C | [Дровосеки](https://codeforces.com/contest/545/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/545/C%20-%20%D0%94%D1%80%D0%BE%D0%B2%D0%BE%D1%81%D0%B5%D0%BA%D0%B8/solution.cpp) |
+| 2259C | [101](https://codeforces.com/contest/2259/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/turgyn-yahya/Codeforces/blob/HEAD/2259/C%20-%20101/solution.cpp) |
 
 ### math
 
